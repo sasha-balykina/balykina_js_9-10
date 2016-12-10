@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Balykina JS-9-10</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/select.css" />
+    <link rel="stylesheet" href="css/checkbox.css" />
+    <link rel="stylesheet" href="css/checkbox-css.css" />
+    <link rel="stylesheet" type="text/css" href="themes/easydropdown.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/click-carousel.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+    <script src="js/jquery.easydropdown.js" type="text/javascript"></script>
+    <script src="js/select.js" type="text/javascript"></script>
+    <script src="js/checkbox.js" type="text/javascript"></script>
+</head>
+<body>
+    <nav>
+        <ul class="content clearfix">
+            <li><a href="#">пункт 1</a></li>
+            <li><a href="#">пункт 2</a></li>
+            <li class="dropdown-menu"><a href="#">пункт 3</a>
+                <ul class="sub-menu">
+                    <li><a href="#">пункт 3.1</a></li>
+                    <li><a href="#">пункт 3.2</a></li>
+                    <li><a href="#">пункт 3.3</a></li>
+                    <li class="dropdown-menu"><a href="#">пункт 3.4</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">пункт 3.4.1</a></li>
+                            <li class="dropdown-menu"><a href="#">пункт 3.4.2</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">пункт 3.4.2.1</a></li>
+                                    <li><a href="#">пункт 3.4.2.2</a></li>
+                                    <li><a href="#">пункт 3.4.2.3</a></li>
+                                    <li><a href="#">пункт 3.4.2.4</a></li>
+                                    <li><a href="#">пункт 3.4.2.5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">пункт 3.4.3</a></li>
+                            <li><a href="#">пункт 3.4.4</a></li>
+                            <li><a href="#">пункт 3.4.5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">пункт 3.5</a></li>
+                </ul>
+            </li>
+            <li><a href="#">пункт 4</a></li>
+            <li><a href="#">пункт 5</a></li>
+        </ul>
+    </nav>
+    
+<div id="wrapper"> 
+    <div id="container">    
+        <img src="img/img1.jpg" alt="Cuba" />
+        <img src="img/img2.jpg" alt="Cuba" />
+        <img src="img/img3.jpg" alt="Cuba" />
+        <img src="img/img4.jpg" alt="Cuba" />
+        <img src="img/img5.jpg" alt="Cuba" />
+    </div><!-- container -->
+    <img id="carouselLeft" src="img/leftArr.png" alt="Left Arrow" />
+    <img id="carouselRight" src="img/rightArr.png" alt="Right Arrow" />
+</div>
+
+    <div class="select-content">
+        <select class="dropdown">
+            <option value="" class="label">Select</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+            <option value="5">Option 5</option>
+        </select>
+    </div>
+
+    
+    <div class="form_line">
+        <h3>Checkbox jQuery</h3>
+        <input type="checkbox" class="check" name="check_1" />
+        <label>Чекбокс 1</label>
+        <input type="checkbox" class="check" name="check_2" />
+        <label>Чекбокс 2</label>                    
+    </div>
+    <div class="checkbox-css">
+        <h3>Checkbox css</h3>
+        <input type="checkbox" class="checkbox" id="checkbox-1" />
+        <label for="checkbox-1">Чекбокс 1</label>
+        <input type="checkbox" class="checkbox" id="checkbox-2" />
+        <label for="checkbox-2">Чекбокс 2</label>
+    </div>
+
+
+
+</body>
+</html>

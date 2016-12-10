@@ -1,0 +1,24 @@
+.checkbox-css {
+  padding:0 0 10px 20px;
+  width:380px;
+}
+
+.checkbox + label {
+  cursor: pointer;
+}
+
+.checkbox:not(checked) {
+  position: absolute;
+}
+
+.checkbox:not(checked) + label {
+  position: relative; 
+}
+
+.checkbox:checked + label:before {
+  background: #9FD468;
+}
+
+.checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}

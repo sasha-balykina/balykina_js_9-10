@@ -1,0 +1,38 @@
+
+.form_line {
+padding:0 0 10px 20px;
+width:380px;
+}
+label {
+padding:0 20px 0 10px;
+width:110px;
+display:inline-block;
+line-height:12px;
+}
+
+/*all*/
+.outtaHere {
+position:absolute;
+left:-3000px;
+}
+span.left, span.center, .selectArea a, .checkboxArea, .checkboxAreaChecked, .radioArea, .radioAreaChecked {
+display:inline-block;
+*display:inline;
+zoom:1;
+vertical-align:top;
+}
+
+.checkboxArea, .checkboxAreaChecked {
+margin-top:4px;
+width:15px;
+}
+/*checkbox*/
+.checkboxArea, .checkboxAreaChecked {
+height:14px;
+}
+.checkboxArea {
+background:url(../img/radio_sprite.png) no-repeat 0 -22px;
+}
+.checkboxAreaChecked {
+background:url(../img/radio_sprite.png) no-repeat 0 -36px;
+}
